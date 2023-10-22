@@ -157,9 +157,9 @@ export default function Footer() {
 <div className="text-white p-4 lg:p-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     <div className="font-bold">
 
-    <h1 className="font-bold text-2xl mb-3">Call Us Now</h1>
-    <h1>+61 3 1234 5678</h1>
-    <h1>+61 3 1234 5678</h1>
+    <h1 className="font-bold text-4xl mb-3">Call Us Now</h1>
+    <h1 className="text-3xl">+61 3 1234 5678</h1>
+    <h1 className="text-3xl">+61 3 1234 5678</h1>
 
     </div>
     <div>
@@ -190,7 +190,7 @@ export default function Footer() {
       
     </div>
     </div>
-    <div className="relative bg-black pb-16">
+    <div className="relative  pb-16">
     <h1 className="font-bold text-2xl mb-3">Subscribe Us</h1>
     <div className="flex absolute">
       <input
