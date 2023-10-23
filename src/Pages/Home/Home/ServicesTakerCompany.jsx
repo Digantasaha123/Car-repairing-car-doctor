@@ -11,7 +11,7 @@ export default function ServicesTakerCompany() {
   return (
     <div className="mt-10 mb-10 p-4 lg:p-28">
     
-    <h1 className="text-3xl lg:text-6xl mb-10 text-center uppercase font-extrabold text-red-600">Service Taking company</h1>
+    <h1 className="text-3xl lg:text-6xl mb-10 text-center uppercase font-extrabold text-red-600">Service Taking companys</h1>
 
         <div>
         <Marquee speed={100} className="flex gap-5">
