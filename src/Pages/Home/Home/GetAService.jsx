@@ -26,12 +26,12 @@ export default function GetAService() {
         <div>
             <p className="text-5xl text-bold text-center text-white bg-blue-600 p-6">Get A Service Now!</p>
             <div>
-                <div className="lg:flex  lg:gap-5  pt-5">
+                <div className="lg:flex mb-2  lg:gap-5  pt-5">
                     <input className="w-full  border-2 border-black p-4" type="text" name="name" placeholder="Your name" id="" />
-                    <input className="w-full border-2 border-black p-4" type="email" name="email" placeholder="Your email" id="" />
+                    <input className="w-full  mt-2 border-2 border-black p-4" type="email" name="email" placeholder="Your email" id="" />
                 </div>
                 <div className="lg:flex gap-5 pt-5 pb-5">
-                    <input className="w-full  border-2 border-black p-4" type="text" name="phone" placeholder="Phone" id="" />
+                    <input className="w-full mb-2 border-2 border-black p-4" type="text" name="phone" placeholder="Phone" id="" />
                     <input className="w-full border-2 border-black p-4" type="date" name="date" placeholder="Reservation date" id="" />
                 </div>
 
