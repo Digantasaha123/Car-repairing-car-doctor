@@ -1,4 +1,5 @@
 import Testemonial from "../../../components/Testemonial";
+import Expert from "./Expert";
 import GetAService from "./GetAService";
 import PhotoGallary from "./PhotoGallary";
 import Service from "./Service";
@@ -16,6 +17,7 @@ export default function Home() {
         <ServicesTakerCompany/>
         <GetAService/>
         <Starter/>
+        <Expert/>
         <PhotoGallary/>
         <Testemonial/>
     </div>
