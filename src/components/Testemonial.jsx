@@ -15,7 +15,7 @@ import Rating from "react-rating";
 export default function Testemonial() {
     const rating = 4.5;
   return (
-    <div className='p-48'>
+    <div className='p-8 lg:p-48'>
     <Swiper
       cssMode={true}
       navigation={true}
@@ -27,7 +27,7 @@ export default function Testemonial() {
     >
       <SwiperSlide>  
 
-      <div className=' w-full text-center p-12 bg-base-700 relative shadow-xl'>
+      <div className=' bg-gray-200 rounded-2xl  w-full text-center p-16 bg-base-700 relative shadow-2xl'>
       <div className="flex justify-between ">
       <div>
                             <FaQuoteLeft className='text-5xl text-[#ff3811]' />
@@ -72,7 +72,7 @@ export default function Testemonial() {
       </SwiperSlide>
       <SwiperSlide>  
 
-      <div className=' w-full text-center p-12 bg-base-700 relative shadow-xl'>
+      <div className=' bg-gray-200 rounded-2xl  w-full text-center p-16 bg-base-700 relative shadow-xl'>
       <div className="flex justify-between ">
       <div>
                             <FaQuoteLeft className='text-5xl text-[#ff3811]' />
@@ -117,7 +117,7 @@ export default function Testemonial() {
       </SwiperSlide>
       <SwiperSlide>  
 
-      <div className=' w-full text-center p-12 bg-base-700 relative shadow-xl'>
+      <div className=' bg-gray-200 rounded-2xl w-full text-center p-16 bg-base-700 relative shadow-xl'>
       <div className="flex justify-between ">
       <div>
                             <FaQuoteLeft className='text-5xl text-[#ff3811]' />
@@ -162,7 +162,7 @@ export default function Testemonial() {
       </SwiperSlide>
       <SwiperSlide>  
 
-      <div className=' w-full text-center p-12 bg-base-700 relative shadow-xl'>
+      <div className='bg-gray-200 rounded-2xl w-full text-center p-16 bg-base-700 relative shadow-xl'>
       <div className="flex justify-between ">
       <div>
                             <FaQuoteLeft className='text-5xl text-[#ff3811]' />
@@ -207,7 +207,7 @@ export default function Testemonial() {
       </SwiperSlide>
       <SwiperSlide>  
 
-      <div className=' w-full text-center p-12 bg-base-700 relative shadow-xl'>
+      <div className='bg-gray-200 rounded-2xl w-full text-center p-16 bg-base-700 relative shadow-xl'>
       <div className="flex justify-between ">
       <div>
                             <FaQuoteLeft className='text-5xl text-[#ff3811]' />
