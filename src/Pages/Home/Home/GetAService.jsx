@@ -22,7 +22,7 @@ export default function GetAService() {
       };
   return (
     <div className="p-4 lg:p-28 h-full left-0 top-0 lg:bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="grid grid-cols-1 items-center justify-center gap-10 lg:grid-cols-2 ">
         <div>
             <p className="text-5xl text-bold text-center text-white bg-blue-600 p-6">Get A Service Now!</p>
             <div>
