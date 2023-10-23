@@ -1,6 +1,7 @@
 import Testemonial from "../../../components/Testemonial";
 import GetAService from "./GetAService";
 import Service from "./Service";
+import Speacilist from "./Speacilist";
 import Workshow from "./Workshow";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
         <Workshow/>
         <Service/>
+        <Speacilist/>
         <GetAService/>
         <Testemonial/>
     </div>
