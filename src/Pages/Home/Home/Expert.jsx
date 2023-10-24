@@ -17,18 +17,27 @@ export default function Expert() {
         <div className='p-4 lg:p-28 mt-10'>
             <h1 className='text-center text-red-600 font-extrabold text-4xl lg:text-8xl mb-10 mt-10 '>Meet Our Team</h1>
             <Swiper
-                slidesPerView={3}
                 spaceBetween={30}
-                autoplay={{
-                    delay: 1000, 
-                    disableOnInteraction: false, 
-                }}
+                speed={1000}
+                parallax={true}
                 loop={true}
+                autoplay={{
+                    delay: 1000,
+                    disableOnInteraction: false,
+                }}
                 pagination={{
                     clickable: true,
                 }}
                 modules={[Pagination]}
-                className="mySwiper"
+                className="mySwiper"            
+                breakpoints={{   
+                    640: {
+                        slidesPerView: 1,
+                    },
+                    641: {
+                        slidesPerView: 3,
+                    },
+                }}
             >
                 {experts.map((expert, index) => (
                     <div key={index} className="mb-16">

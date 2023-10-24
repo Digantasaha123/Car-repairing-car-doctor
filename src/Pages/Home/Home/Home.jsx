@@ -1,4 +1,5 @@
 import Testemonial from "../../../components/Testemonial";
+import Banner from "./Banner";
 import Expert from "./Expert";
 import GetAService from "./GetAService";
 import PhotoGallary from "./PhotoGallary";
@@ -11,6 +12,7 @@ import Workshow from "./Workshow";
 export default function Home() {
   return (
     <div>
+      <Banner/>
         <Workshow/>
         <Service/>
         <Speacilist/>

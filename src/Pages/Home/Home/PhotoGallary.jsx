@@ -18,7 +18,7 @@ export default function PhotoGallary() {
   return (
 
     <div className='text-center p-4 lg:p-28'>
-        <h1 className='text-center text-8xl text-red-600 font-bold mb-8'>Photo gallery</h1>
+        <h1 className='text-center text-4xl lg:text-8xl text-red-600 font-bold mb-8'>Photo gallery</h1>
         <Tabs   >
     <TabList>
       <Tab>ALL</Tab>
