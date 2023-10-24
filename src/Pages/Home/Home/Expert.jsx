@@ -14,7 +14,7 @@ export default function Expert() {
     }, []);
 
     return (
-        <div className='p-4 lg:p-28 mt-10'>
+        <div className='p-4 lg:pl-28 lg:pr-28 mt-5'>
             <h1 className='text-center text-red-600 font-extrabold text-4xl lg:text-8xl mb-10 mt-10 '>Meet Our Team</h1>
             <Swiper
                 spaceBetween={30}

@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Workshow = () => {
     return (
-        <div className="mt-4 lg:mt-48 mb-4 lg:mb-48">
-              <div className=" p-4 lg:p-28">
+        <div className="mt-4 lg:mt-5 mb-4 lg:mb-5">
+              <div className=" p-4 lg:pr-28 lg:pl-28">
             <div className="flex flex-col items-center lg:flex-row lg:gap-5 ">
                 <div className='lg:w-1/2 relative '>
                     <img src={person} className="w-3/4 rounded-lg shadow-2xl" />

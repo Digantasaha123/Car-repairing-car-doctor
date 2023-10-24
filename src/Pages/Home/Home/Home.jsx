@@ -14,7 +14,6 @@ export default function Home() {
     <div>
       <Banner/>
         <Workshow/>
-        <Service/>
         <Speacilist/>
         <ServicesTakerCompany/>
         <GetAService/>

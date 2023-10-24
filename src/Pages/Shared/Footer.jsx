@@ -21,13 +21,13 @@ export default function Footer() {
        <img className="w-20 rounded-sm" src={logo} alt="" />
        </div>
        <div>
-        <p className="uppercase text-4xl font-bold">Car <span className="text-red-600">Doctor</span></p>
+        <p className="uppercase text-2xl lg:text-4xl font-bold">Car <span className="text-red-600">Doctor</span></p>
         <p className="text-sm text-base-500 font-bold">Car repair & Servicing</p>
 
        </div>
        
    </div>
-   <p className="text-3xl mb-5 mt-10  font-bold">203, Envato Labs, Behind Alis Steet, <br /> Melbourne, Australia.</p>
+   <p className="text-xl lg:text-3xl mb-5 mt-10  font-bold">203, Envato Labs, Behind Alis Steet, <br /> Melbourne, Australia.</p>
 
   <div className="space-y-4">
   <div className="flex gap-2 items-center text-2xl">
@@ -177,13 +177,14 @@ export default function Footer() {
       <div className="border p-3 hover:bg-slate-700">
       <FaWhatsapp className="w-8 h-8   text-green-500" />
       </div>
-      <div className="border p-3 hover:bg-slate-700">
+      <div className="border p-3  hover:bg-slate-700">
       <FaInstagram className="w-8 h-8   text-pink-500" />
       </div>
-      <div className="border p-3 hover:bg-slate-700">
+      <div className="hidden lg:block border p-3 hover:bg-slate-700">
       <FaYoutube  className="w-8 h-8   text-red-600" />
       </div>
-      <div className="border p-3 hover:bg-slate-700">
+      <br />
+      <div className="border hidden lg:block p-3 hover:bg-slate-700">
       <FaPinterest  className="w-8 h-8   text-red-400" />
       </div>
 
