@@ -2,6 +2,7 @@ import { FaFacebook, FaGoogle, FaInstagram, FaLinkedin, FaMailBulk, FaMap, FaPho
 
 import logo from "../../assets/logo.png"
 
+
 export default function Navber() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Navber() {
        <p> <FaShoppingCart size={25}/> </p>
       
         <FaSearch size={25}/>
+        
       </div>
     </div>
 

@@ -12,15 +12,15 @@ import Workshow from "./Workshow";
 export default function Home() {
   return (
     <div>
-      <Banner/>
-        <Workshow/>
-        <Speacilist/>
-        <ServicesTakerCompany/>
+       <Banner/>
+         <Workshow/> 
+         <Speacilist/>
+         <ServicesTakerCompany/>
         <GetAService/>
         <Starter/>
         <Expert/>
         <PhotoGallary/>
-        <Testemonial/>
+        <Testemonial/>  
     </div>
   )
 }

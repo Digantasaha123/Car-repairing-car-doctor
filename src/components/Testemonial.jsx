@@ -15,7 +15,7 @@ import Rating from "react-rating";
 export default function Testemonial() {
     const rating = 4.5;
   return (
-    <div className='p-8 lg:pl-48 lg:pr-48'>
+    <div className='p-8 lg:pl-48 lg:pr-48' >
     <Swiper
       cssMode={true}
       navigation={true}

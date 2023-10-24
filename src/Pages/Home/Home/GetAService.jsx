@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaAward, FaCar, FaPeopleArrows, FaThumbsUp } from "react-icons/fa";
 import CountUp from 'react-countup';
+import AOS from 'aos'; // Import AOS library
+import 'aos/dist/aos.css';
 
 export default function GetAService() {
     const carCompanies = [
@@ -20,9 +22,16 @@ export default function GetAService() {
       const handleCarCompanySelect = (event) => {
         setSelectedCarCompany(event.target.value);
       };
+      useEffect(() => {
+        AOS.init({
+          duration: 5000, // Change the duration as per your preference
+        });
+      }, []);
   return (
-    <div className="p-4 lg:p-28 h-full left-0 top-0 lg:bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-        <div className="grid grid-cols-1 items-center justify-center gap-10 lg:grid-cols-2 ">
+    <div className="p-4 lg:p-28 h-full left-0 top-0 lg:bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+        <div className="grid grid-cols-1 items-center justify-center gap-10 lg:grid-cols-2 " data-aos="zoom-out-up">
         <div>
             <p className="text-5xl text-bold text-center text-white bg-blue-600 p-6">Get A Service Now!</p>
             <div>
@@ -57,7 +66,7 @@ export default function GetAService() {
             </div>
         </div>
 
-        <div className="md:flex">
+        <div className="md:flex" data-aos="zoom-out-down">
             <div className="flex flex-col">
                 <div className="p-12">
                     <FaCar className="p-4" size={100}/>

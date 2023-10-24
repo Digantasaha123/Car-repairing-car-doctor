@@ -184,7 +184,7 @@ export default function Footer() {
       <FaYoutube  className="w-8 h-8   text-red-600" />
       </div>
       <br />
-      <div className="border hidden lg:block p-3 hover:bg-slate-700">
+      <div className=" hidden lg:block p-3 hover:bg-slate-700">
       <FaPinterest  className="w-8 h-8   text-red-400" />
       </div>
 
