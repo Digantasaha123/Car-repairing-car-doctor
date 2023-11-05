@@ -7,7 +7,7 @@ import { FaFacebook, FaTwitter, FaSkype, FaWhatsapp, FaInstagram, FaYoutube, FaP
 export default function Footer() {
     const backgroundStyle = {
         backgroundImage: `url(${background})`,
-        backgroundSize: 'cover',
+        backgroundSize:'center',
         backgroundPosition: 'center',
       };
   return (

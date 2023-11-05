@@ -57,7 +57,7 @@ export default function Navber() {
     <div>
       <div className="lg:flex items-center justify-around text-white bg-[#FF3811]">
         <div className="flex gap-2 lg:gap-5 font-bold text-2xl p-6">
-          <h1>FAQ | </h1>
+          <h1>FAsdfQ | </h1>
           <h1>Help Desk |</h1>
           <button onClick={openLoginModal}>Login</button>
         </div>
